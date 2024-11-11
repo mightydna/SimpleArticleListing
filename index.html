@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Article Listing</title>
+    <link rel="icon" type="image/x-icon" href="resources/images/icons/favicon.ico">
+    <link rel="stylesheet" href="resources/styles/main.css">
 </head>
 <body>
-    <header>
-        <h1>We release interesting articles about technology</h1>
-        <img src="resources/images/icons/Seperator.svg" title="" alt="">
-    </header>
-    <main>
-        <article>
-            <img src="resources/images/pictures/photo_1.png" title="" alt="">
-            <p>Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions</p>
-            <p>November 12, 2024</p>
-        </article>
-        <article>
-            <img src="resources/images/pictures/photo_3.png" title="" alt="">
-            <p>The Future of AI: How Machine Learning is Revolutionizing Industries</p>
-            <p>November 12, 2024</p>
-        </article>
-        <article>
-            <img src="resources/images/pictures/photo_2.png" title="" alt="">
-            <p>The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work</p>
-            <p>November 12, 2024</p>
-        </article>
-    </main>
-    <footer>
-    </footer>
+    <div id="width_container">
+        <header>
+            <div id="headline">
+                <h1>We release interesting articles about technology</h1>
+                <img src="resources/images/icons/Seperator.svg" title="" alt="" id="separator">
+            </div>
+        </header>
+        <main>
+            <article>
+                <img src="resources/images/pictures/photo_1.png" title="" alt="" class="art_img">
+                <div class="art_text">
+                    <p class="art_headline">Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions</p>
+                    <p class="art_date">November 12, 2024</p>
+                </div>
+            </article>
+            <article>
+                <img src="resources/images/pictures/photo_3.png" title="" alt="" class="art_img">
+                <div class="art_text">
+                    <p class="art_headline">The Future of AI: How Machine Learning is Revolutionizing Industries</p>
+                    <p class="art_date">November 12, 2024</p>
+                </div>
+            </article>
+            <article>
+                <img src="resources/images/pictures/photo_2.png" title="" alt="" class="art_img">
+                <div class="art_text">
+                    <p class="art_headline">The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work</p>
+                    <p class="art_date">November 12, 2024</p>
+                </div>
+            </article>
+        </main>
+        <footer>
+        </footer>
+    </div>
 </body>
 </html>
