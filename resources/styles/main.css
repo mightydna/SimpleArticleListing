@@ -56,12 +56,17 @@ article {
     flex-direction: row;
     align-items: center;
     margin-bottom: 52px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+article:hover {
+    background-color: #D9D9D9;
+    width: 1.2;
 }
 .art_img {
     border-radius: 15px;
     width: 160px;
     height: 160px;
-    
 }
 .art_headline {
     padding: 0px;
