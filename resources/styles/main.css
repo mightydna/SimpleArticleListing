@@ -16,10 +16,16 @@
 
 /* CSS */
 /* Main */
+html {
+    padding: 0px;
+    margin: 0px;
+}
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 #width_container {
     width: 736px;
@@ -42,6 +48,7 @@ h1 {
     width: 180px;
     height: 16px;
     margin-bottom: 42px;
+    padding: 0px;
 }
 /* Articles */
 article {
@@ -57,17 +64,26 @@ article {
     
 }
 .art_headline {
-    margin-bottom: 16px;
     padding: 0px;
     font-size: 20px;
     font-family: 'Poppins Semibold';
     font-weight: 600;
-    margin-left: 60px;
+    margin: 0px 0px 16px 60px;
 }
 .art_date {
     font-size: 14px;
     font-family: 'Poppins Medium';
     font-weight: 500;
     color: #4D5562;
-    margin-left: 60px;
+    margin: 0px 0px 0px 60px;
+}
+/* Media Queries */
+@media (max-width: 430px) {
+    article {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #width_container {
+        width: auto;
+    }
 }
