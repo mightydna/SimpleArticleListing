@@ -1,0 +1,17 @@
+/* Fonts */
+/* Poppins Semibold */
+@font-face {
+    font-family: 'Poppins Semibold';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+/* Poppins Medium */
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* CSS */
